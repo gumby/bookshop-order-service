@@ -3,7 +3,7 @@ on: push
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: gumby/order-service
+  IMAGE_NAME: gumby/bookshop-order-service
   VERSION: latest
 
 jobs:
