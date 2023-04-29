@@ -60,7 +60,7 @@ jobs:
         run: |
           chmod +x gradlew
           ./gradlew bootBuildImage \
-          --imageName = ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ env.VERSION }}
+          --imageName ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ env.VERSION }}
       - name: Image vuln scan
         uses: anchore/scan-action@v3
         id: scan
