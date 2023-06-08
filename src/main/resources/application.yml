@@ -70,6 +70,8 @@ management:
     health:
       show-details: always
       show-components: always
+      probes:
+        enabled: true
 
 polar:
   catalog-service-uri: "http://localhost:9001"
