@@ -38,6 +38,7 @@ dependencies {
 	runtimeOnly 'org.flywaydb:flyway-core'
 	runtimeOnly 'org.postgresql:postgresql'
 	runtimeOnly 'org.springframework:spring-jdbc'
+	runtimeOnly 'io.micrometer:micrometer-registry-prometheus'
 
 	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
 
